@@ -83,6 +83,9 @@ set-option -g set-titles-string "#S:#I:#W - \"#T\" #{session_alerts}"
 set-option -g update-environment[0] DISPLAY
 set-option -g update-environment[1] KRB5CCNAME
 
+# Stop terminal from from flashing
+set -g bell-action none
+
 # List of plugins
 set -g @plugin 'tmux-plugins/tpm'
 set -g @plugin 'tmux-plugins/tmux-resurrect'

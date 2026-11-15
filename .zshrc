@@ -108,5 +108,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 [[ -z "$TMUX" ]] && [[ -d "/home/theo/" ]] && cd "/home/theo/"
 
-export PATH="$HOME/bin:$PATH"
-fortune -s | pokemonsay
+export PATH="$HOME/misc/bin:$HOME/bin:$PATH"
+fortune -s | misc/pokemonsay
